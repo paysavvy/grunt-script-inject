@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
     'use strict';
 
-    grunt.registerMultiTask('script-inject', 'Automatically injects script tags into a page.', function () {
+    grunt.registerMultiTask('scriptinject', 'Automatically injects script tags into a page.', function () {
         var htmlText;
         var scriptText;
 
